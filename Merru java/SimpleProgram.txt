@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+class SimpleProgram{
+public static void main(String args[]){
+ArrayList<String> colorsList=new ArrayList<>();
+colorsList.add("pink");
+colorsList.add("Green");
+colorsList.add("Blue");
+HashSet<String> colorsList=new HashSet<>();
+colorsList.add("pink");
+colorsList.add("Green");
+colorsList.add("Yellow");
+System.out.println("ArrayList:"+colorsList);
+System.out.println("HashSet:"+colorsList);
+}
+}
